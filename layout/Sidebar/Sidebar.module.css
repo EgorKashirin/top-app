@@ -1,0 +1,9 @@
+.slider {
+	display: grid;
+	align-content: start;
+	gap: 20px;
+}
+
+.logo {
+	fill: var(--primary);
+}
