@@ -8,9 +8,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
       - name: Publish to Registry
-        uses: egorKashirin/top-app@main
+        uses: elgohr/Publish-Docker-Github-Action@master
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.github.com/egorKashirin/top-app/top-app
