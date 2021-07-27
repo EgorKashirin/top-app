@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {ButtonIcon, Htag, P, Tag, Rating, Input, Textarea} from "../components";
+import { Htag, P, Tag, Rating, Input, Textarea} from "../components";
 import { withLayout} from "../layout/Layout";
 import {GetStaticProps} from "next";
 import axios from "axios";
@@ -9,12 +9,10 @@ import {API} from "../helpers/api";
 function Home({menu,firstCategory}:HomeProps): JSX.Element {
 
     const [rating,setRating] = useState<number>(4);
-
+    
   return (
     <>
       <Htag tag="h1">Hi YEgor</Htag>
-        <ButtonIcon appearance="primary" arrow="right">Кнопка</ButtonIcon>
-        <ButtonIcon appearance="ghost" arrow="down">Кнопка</ButtonIcon>
           <P size="l">1231212dadassdaasdasdsadas</P>
           <P size="m">1231212dadassdaasdasdsadas</P>
           <P size="s">1231212dadassdaasdasdsadas</P>

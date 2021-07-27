@@ -5,6 +5,8 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "next dev",
+    "production": "cross-env NODE_ENV=production next start",
+    "export": "next export",
     "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
